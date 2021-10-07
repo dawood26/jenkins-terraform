@@ -6,7 +6,7 @@ terraform {
   }
 }
 provider "libvirt" {
-  uri = "qemu+ssh://root@192.168.122.1/system"
+  uri = "qemu+ssh://root@192.168.10.1/system"
 }
 resource "libvirt_volume" "server1-qcow2" {
   name = "server1.qcow2"
